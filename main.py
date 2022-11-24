@@ -20,11 +20,6 @@ def add_data(session, file):
 
 
 def print_publisher(session):
-    # try:
-    #     id_publisher = int(input("Пожалуйста введите ID создателя, которого необходимо вывести: "))
-    # except ValueError:
-    #     print('Неврное значение, это должно быть целое число')
-    # else:
     id_publisher = int(input("Пожалуйста введите ID создателя, которого необходимо вывести: "))
     if id_publisher not in range(1,5):
         print("Некорректны ID, значение должно быть от 1 до 4")
